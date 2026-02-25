@@ -1,0 +1,42 @@
+```json
+{
+  "chain_name": "FoodChain Trace",
+  "chain_id": 45678,
+  "symbol": "FOOD",
+  "decimals": 18,
+  "programming_language": "TypeScript",
+  
+  "supply": {
+    "genesis_supply": 8000000,
+    "max_supply": 40000000,
+    "circulating_supply": 8000000
+  },
+  
+  "block_details": {
+    "block_time": 20,
+    "block_reward": 18,
+    "halving_interval": 210000,
+    "halving_count": 0,
+    "current_block_reward": 18
+  },
+  
+  "consensus": {
+    "type": "Proof of Origin",
+    "validators": 21,
+    "minimum_stake": 40000
+  },
+  
+  "network": {
+    "network_type": "testnet",
+    "launch_date": "2026-02-25",
+    "rpc_url": "https://foodchain.testnet.canopy.network",
+    "explorer_url": "https://explorer.foodchain.network"
+  },
+  
+  "project_info": {
+    "creator": "Misagh95",
+    "github": "https://github.com/Misagh95",
+    "description": "Farm-to-table food traceability network",
+    "category": "SupplyChain"
+  }
+}
